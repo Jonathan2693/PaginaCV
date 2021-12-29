@@ -46,3 +46,66 @@
     padding-bottom: 0px;
     text-align: center;
 }
+.cuerpo_principal .skills{
+    position: absolute;
+    font-weight: 300;
+    height: 150px;
+    width: 100%;
+    margin-top: 600px;
+}
+.cuerpo_principal .skills .txts4{
+    font-size: 28px;
+    width: 168px;
+    height: 58px;
+    text-align: center;
+    background-color: #E5FFCB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding-top: 20px;
+}
+#txtskill1{
+    position: absolute;
+    margin-left: 300px;
+    
+}
+#txtskill2{
+    position: absolute;
+    margin-left: 548px;
+}
+#txtskill3{
+    position: absolute;
+    margin-left: 796px;
+}
+#txtskill4{
+    position: absolute;
+    margin-left: 1044px;
+}
+
+#logoupiita{
+    position: absolute;
+    width: 289px;
+    height: 227px;
+    margin-left: 87px;
+    margin-top: 720px;
+}
+#logogeneration{
+    position: absolute;
+    width: 368px;
+    height: 180px;
+    margin-left: 1087px;
+    margin-top: 740px;
+}
+.cuerpo_principal a button{
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 24PX;
+    color: white;
+    text-align: center;
+    width: 361px;
+    height: 59px;
+    margin-left: 550px;
+    margin-top: 830px;
+    background: #7579D6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
