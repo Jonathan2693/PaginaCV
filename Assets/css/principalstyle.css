@@ -1,0 +1,60 @@
+.cuerpo_Principal{
+    width: 100%;
+    height: auto;
+}
+.cuerpo_Principal .info_personal{
+    display: block;     /*Crear el span como un bloque*/
+    margin: 90px auto;
+    width: 1000px;
+    height: 700px;
+    border: 1px solid #2824E2;
+    background-color: #84FAFA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+#foto_personal{
+    position: absolute;
+    margin-left: 375px;
+    margin-top: 43px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #F5F4F4;
+    border: 1px solid #7B3EFC;
+    box-sizing: border-box;
+    text-align: center
+}
+.cuerpo_Principal .info_personal p{
+    position: absolute;
+    width: 900px;
+    height: 318px;
+    margin-top: 350px;
+    margin-left: 50px;
+    display: block;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 34px;
+
+}
+.cuerpo_Principal .info_personal img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.cuerpo_Principal .info_personal a button{
+    position: absolute;
+    margin-left: 393px;
+    margin-top: 616px;
+    margin: 300 auto;
+    width: 214px;
+    height: 52px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 30px;
+    background-color: #4148E4;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}

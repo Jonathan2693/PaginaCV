@@ -1,0 +1,59 @@
+body{
+    margin: 0;  /*Eliminación de espacios para que el encabezado inicie desde la esquina superior izquierda de la página*/
+    padding: 0;
+    background-color: #FFF6E9;
+}
+.Encabezado
+{
+    width: 100%;                    /* Ancho completo de la página*/
+    height:144px ;                  /*Alto de 144px*/
+    background-color: #7232FC;    /*Definir color de encabezado*/
+    font-family: 'Roboto';          /*Tipo de letra*/
+}
+.Encabezado h1
+{
+    color: white;                 /*Color de la letra*/           /**/
+    font-size: 48px;        /*Tamaño de letra de 48*/
+    font-weight: 300;       /*Estilo de letra*/
+    text-align: center;     /*Alineación de letra*/
+    float: left;            /*Colocar h1 hacia la izquierda del div*/
+    display: block;         /*Representar h1 como una caja*/
+    margin-left: 3.19%;     /*Colocar un margen del 3.19% del borde siempre*/
+    margin-top: 46px;       /*Separar del borde superior 46 px*/
+}
+
+.Encabezado ul{         /*A la lista del menu se le quitan bordes internos y externos, al igual que el formato*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.Encabezado li{         /*A cada elemento se le coloca a la izquierda del anterior, se configura como bloque individualmente, distancias iguales de 28px, y bordes internos de 5px (arriba abajo) y 10px lados */
+    float:left;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Roboto';
+    display: block;
+    margin-top: calc(72px - 10px);
+    margin-left: 28px;
+    padding: 5px 10px;
+}
+.Encabezado ul li a{        /*A cada elmento se le quita la decoracion que da la etiqueta a*/
+    text-decoration: none;
+    color: white;
+}
+#el1{   /*Al primer elemento del menu se da más margen izquierdo, y se define más gruesa la letra para indicar que nos encontramos en esa página*/
+    margin-left:78px;         /*MOVER PARA ALINEAR 170px*/
+}
+
+#linkedinimg{
+    margin-left: 120px;     /*MOVER PARA ALINEARLO*/
+    border-radius: 7px;
+}
+.Encabezado span a img{
+    float: left;
+    display: block;
+    width: 62px;
+    height: 62px;
+    margin-top: 46px;
+    margin-left: 46px;
+}
