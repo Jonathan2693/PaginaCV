@@ -45,15 +45,43 @@ body{
     margin-left:78px;         /*MOVER PARA ALINEAR 170px*/
 }
 
-#linkedinimg{
-    margin-left: 120px;     /*MOVER PARA ALINEARLO*/
+
+#mailimg{
+    position: absolute;
+    display:inline-block;
+    margin-top: 36px;
+    margin-left: 70px;     /*MOVER PARA ALINEARLO*/
     border-radius: 7px;
+    width: 80px;
+    height: 80px;
 }
-.Encabezado span a img{
-    float: left;
-    display: block;
+#cuadroblanco{
+    position: absolute;
+    display:inline-block;
+    margin-top: 52px;
+    margin-left: 75px;     /*MOVER PARA ALINEARLO*/
+    border-radius: 7px;
+    background-color: white;
+    width: 70px;
+    height: 49px;
+}
+
+
+#linkedinimg{
+    position: absolute;
+    display:inline-block;
+    margin-top: 46px;
+    margin-left: 160px;     /*MOVER PARA ALINEARLO*/
+    border-radius: 7px;
     width: 62px;
     height: 62px;
+}
+#githubimg{
+    position: absolute;
+    display:inline-block;
     margin-top: 46px;
-    margin-left: 46px;
+    margin-left: 240px;     /*MOVER PARA ALINEARLO*/
+    border-radius: 7px;
+    width: 62px;
+    height: 62px;
 }
