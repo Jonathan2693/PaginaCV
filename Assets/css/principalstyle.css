@@ -1,10 +1,11 @@
 .cuerpo_Principal{
     width: 100%;
-    height: auto;
+    height: 1000px;
 }
 .cuerpo_Principal .info_personal{
-    display: block;     /*Crear el span como un bloque*/
-    margin: 90px auto;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 275px;
     width: 1000px;
     height: 700px;
     border: 1px solid #2824E2;
@@ -16,7 +17,7 @@
 
 #foto_personal{
     position: absolute;
-    margin-left: 375px;
+    margin-left: 350px;
     margin-top: 43px;
     width: 250px;
     height: 250px;

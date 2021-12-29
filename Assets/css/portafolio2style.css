@@ -1,0 +1,43 @@
+.cuerpo_principal{
+    width: 100%;
+    height: 1000px;
+    font-family: 'Roboto';
+}
+.cuerpo_principal .info{
+    position: absolute;
+    margin-top: 41px;
+    margin-left: 150px;
+    width: 1185px;
+    height: 210px;
+    padding: 10px;
+    background: #DAD5D5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+.cuerpo_principal .info .txt1{
+    font-size: 38px;
+}
+.cuerpo_principal .info .txt2{
+    font-size: 24px;
+}
+.cuerpo_principal .info .txt3{
+    font-size: 30px;
+}
+.cuerpo_principal video{
+    position: absolute;
+    width: 1355px;
+    height: 588px;
+    margin-top: 300px;
+    margin-left: 110px;
+}
+button{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 650px;
+    top: 1040px;
+    color: white;
+    width: 215px;
+    height: 52px;
+    background: #4148E4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
