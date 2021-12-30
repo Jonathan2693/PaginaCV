@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi">
+    <link rel="stylesheet" href="/Assets/css/fonts.css" type="text/css">
+    <link rel="stylesheet" href="/Assets/css/encabezadostyle.css">
+    <link rel="stylesheet" href="/Assets/css/formulariostyle.css">
+    <title>Página Principal</title>
+</head>
+<body>
+    <div class="Encabezado">
+        <h1>Jonathan Quino</h1>
+        <ul>
+            <li><a id = "el1" href="/index.html">Acerca de mi</a></li>
+            <li><a href="/experiencia.html">Experiencia</a></li>
+            <li><a href="/educacion.html">Educacion</a></li>
+            <li><a href="/educacion.html">Portafolio</a></li>
+        </ul>
+        <span id="cuadroblanco"></span>
+        <a href="mailto:jonathan.quino.26793@gmail.com"><img id="mailimg" src="/Assets/img/email.png"></a>
+        <a href="https://www.linkedin.com/in/jonathan-quino-reyes"><img id="linkedinimg" src="/Assets/img/linkedin-logo.png"></a>
+        <a href="https://github.com/Jonathan2693"><img id="githubimg" src="/Assets/img/github.png"></a>
+    </div>
+
+        <div class="cuerpo_Principal">
+            <span class="info_formulario">
+                <span>
+                    <span id="txt1">Formulario</span><br/>
+                    <span id="txt2">Si deseas consultar más información sobre mi CV o contactarme personalmente, llena el formulario presentado a continuación, se descargará mi documento de CV personal y responderé tan pronto como sea posible.</span>
+                </span>
+                <form class="formulario">
+                    <label for="nombre" id="lblnombre">Nombre</label>
+                    <input name="nombre" id="inputnombre" type="text" required>
+                    <label for="mail" id="lblmail">Correo electrónico</label>
+                    <input name="mail" id="inputmail" type="email" required>
+                    <label for="mensaje" id="lblmensaje">Mensaje</label>
+                    <textarea name="mensaje" id="inputmensaje" cols="1" rows="3" placeholder="Opcional"></textarea>
+                    <button id="enviar"><a href="/Assets/img/JonathanQuinoCV.pdf" download="CV.pdf">Enviar</a></button>
+                </form>
+            </span>
+    
+        </div>
+    </body>
+    </html>
