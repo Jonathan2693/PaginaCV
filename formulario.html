@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi">
+    <script src="/Assets/js/app.js"></script>
     <link rel="stylesheet" href="/Assets/css/fonts.css" type="text/css">
     <link rel="stylesheet" href="/Assets/css/encabezadostyle.css">
     <link rel="stylesheet" href="/Assets/css/formulariostyle.css">
@@ -30,14 +31,14 @@
                     <span id="txt1">Formulario</span><br/>
                     <span id="txt2">Si deseas consultar más información sobre mi CV o contactarme personalmente, llena el formulario presentado a continuación, se descargará mi documento de CV personal y responderé tan pronto como sea posible.</span>
                 </span>
-                <form class="formulario">
+                <form class="formulario" >
                     <label for="nombre" id="lblnombre">Nombre</label>
                     <input name="nombre" id="inputnombre" type="text" required>
                     <label for="mail" id="lblmail">Correo electrónico</label>
                     <input name="mail" id="inputmail" type="email" required>
                     <label for="mensaje" id="lblmensaje">Mensaje</label>
                     <textarea name="mensaje" id="inputmensaje" cols="1" rows="3" placeholder="Opcional"></textarea>
-                    <button id="enviar"><a href="/Assets/img/JonathanQuinoCV.pdf" download="CV.pdf">Enviar</a></button>
+                    <input type="submit" id="enviar" name="Enviar" onclick="formulariolleno()">
                 </form>
             </span>
     
